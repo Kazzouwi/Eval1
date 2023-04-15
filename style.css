@@ -1,0 +1,27 @@
+body {
+    margin : 0px
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid rgb(0, 131, 218);
+}
+
+@media screen and (max-width: 375px) {
+    nav h1{
+        display: none;
+    }
+}
+nav a {
+    margin-right: 10px;
+}
+
+nav button {
+    margin: 15px;
+}
+
+h1, h2, h3 {
+    color: rgb(0, 131, 218);
+}
