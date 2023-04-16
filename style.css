@@ -89,7 +89,7 @@ aside h3 {
     margin-top: 25px;
 }
 
-p {
+p, li {
     text-align: justify;
 }
 
